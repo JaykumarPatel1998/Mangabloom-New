@@ -1,0 +1,11 @@
+# just a local postgres instance to test changes
+services:
+  db:
+    image: postgres:15-alpine
+    restart: always
+    environment:
+      - POSTGRES_USER=jay          # Your Username
+      - POSTGRES_PASSWORD=password  # Your Password
+      - POSTGRES_DB=mydb              # Your Database Name
+    ports:
+      - "5432:5432"
