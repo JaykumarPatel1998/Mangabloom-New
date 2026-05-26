@@ -44,7 +44,7 @@ function App() {
       {/* <AppSidebar /> */}
 
       <div className="w-full">
-        <NavigationMenu>
+         <NavigationMenu>
           <NavigationMenuList>
             <NavigationMenuItem>
               <SidebarTrigger />

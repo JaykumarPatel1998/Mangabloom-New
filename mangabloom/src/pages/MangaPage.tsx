@@ -14,7 +14,7 @@ import Navbar from "@/components/Navbar";
 export default function MangaPage() {
   const { id } = useParams<{ id?: string }>();
 
-  const be_url = "http://localhost:3000"
+  const be_url = "http://Mangabloom-env.eba-ycpwk2pp.ca-central-1.elasticbeanstalk.com"
   const [imageSrc, setImageSrc] = useState<string | null>(null);
 
   const {isPending, error, data, isFetching} = useQuery({
