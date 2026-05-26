@@ -1,4 +1,3 @@
-import { AppSidebar } from "./components/app-sidebar";
 import { SidebarProvider, SidebarTrigger } from "./components/ui/sidebar";
 import {
   NavigationMenu,
@@ -41,7 +40,6 @@ function App() {
       defaultOpen={true}
     >
       <Analytics/>
-      {/* <AppSidebar /> */}
 
       <div className="w-full">
          <NavigationMenu>
