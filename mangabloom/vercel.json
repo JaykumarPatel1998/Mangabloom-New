@@ -6,7 +6,7 @@
     "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "http://Mangabloom-env.eba-ycpwk2pp.ca-central-1.elasticbeanstalk.com*"
+      "destination": "http://Mangabloom-env.eba-ycpwk2pp.ca-central-1.elasticbeanstalk.com/:path*"
     }
   ]
 
