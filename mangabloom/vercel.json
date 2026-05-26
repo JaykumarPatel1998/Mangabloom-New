@@ -2,5 +2,12 @@
     "routes": [
       { "src": "/", "dest": "/" },
       { "src": "/manga", "dest": "/" }
-    ]
+    ],
+    "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "http://Mangabloom-env.eba-ycpwk2pp.ca-central-1.elasticbeanstalk.com*"
+    }
+  ]
+
 }

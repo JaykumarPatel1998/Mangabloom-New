@@ -17,7 +17,7 @@ import { Link, useNavigate } from "react-router";
 const fetchResults = async (title: string): Promise<Manga[]> => {
   if (!title.trim()) return [];
   const res = await axios.get(
-    "http://Mangabloom-env.eba-ycpwk2pp.ca-central-1.elasticbeanstalk.com/mangas",
+    "/api/mangas",
     { 
         params: {
             title : title

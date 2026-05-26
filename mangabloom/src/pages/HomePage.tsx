@@ -23,7 +23,7 @@ export default function Homepage() {
     queryFn: async () => {
       // Make the API request
       const res = await axios.get(
-        "http://Mangabloom-env.eba-ycpwk2pp.ca-central-1.elasticbeanstalk.com/mangas",
+        "/api/mangas",
         {
           params: {
             offset: offset * limit,
